@@ -28,10 +28,11 @@ img{
     display: block;
 }
 .wrapper{
-    margin: 40px 80px;
+    width: 1000px;
+    margin: 0 auto;
     display: flex;
-    flex-direction: column;
-    flex-basis: auto;
+    flex-wrap: wrap;
+    justify-content: center;
     /*
         TODO:
         - Center up the page
@@ -40,8 +41,7 @@ img{
     */
 }
 #site-header{
-    display: flex;
-    flex-direction: column;
+    flex-grow: 1;
     /*
         TODO
         - Flexbox property here
@@ -83,8 +83,7 @@ img{
 #main-navigation{
     background: #444;
     display: flex;
-    flex-flow: nowrap;
-    justify-content: space-around;
+    justify-content: space-between;
     /*
         TODO:
         - Use Flexbox to arrange the navigation links
@@ -117,6 +116,10 @@ main{
     padding: 20px;
     background-color: #444;
     box-shadow: -5px 5px 8px rgba( 0, 0, 0, 0.3 );
+    width: 55%;
+    align-content: center;
+    position: relative;
+    bottom: 50px;
     /*
         TODO:
         - Flexbox: Set the starting width of this element
@@ -127,6 +130,9 @@ aside{
     padding: 20px;
     background-color: #eee;
     box-shadow: 5px 5px 8px rgba( 0, 0, 0, 0.3 );
+    width: 25%;
+    position: relative;
+    bottom: 50px;
     /*
         TODO:
         - Flexbox: Set the starting width of this element
@@ -167,6 +173,8 @@ article time{
     color: #666;
 }
 article img{
+    float: right;
+    width: 30%;
     /*
         TODO:
         - Float article images to the right
