@@ -28,7 +28,7 @@ img{
     display: block;
 }
 .wrapper{
-    margin: 40px 100px;
+    margin: 40px 80px;
     display: flex;
     flex-direction: column;
     flex-basis: auto;
@@ -51,7 +51,7 @@ img{
     text-align: center;
     padding: 60px 0 120px 0;
     font-size: 4em;
-
+    background-image: url(img/header-img.jpg);
     /*
         TODO:
         - Add a background image "header-img.jpg"
