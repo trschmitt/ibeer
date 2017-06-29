@@ -194,8 +194,13 @@ article footer p{
     */
 }
 #site-footer{
-
+    display: flex;
+    color: white;
+    text-decoration: none;
     background: #333;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
     /*
         TODO:
         - Style the site footer
