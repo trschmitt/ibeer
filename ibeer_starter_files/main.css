@@ -182,6 +182,11 @@ article img{
     */
 }
 article footer p{
+    border-top: 1px solid #ccc;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 0.8em;
+    color: #666;
     /*
         TODO:
         - Style the article footer
