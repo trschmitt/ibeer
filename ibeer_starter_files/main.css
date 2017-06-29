@@ -74,6 +74,7 @@ img{
     color: white;
     bottom: 20px;
     text-shadow: 0 5px 8px rgba( 0, 0, 0, 0.3 );
+    font-family: 'Dancing Script'
     /*
         TODO:
         - Use the script font: 'Dancing Script' fot this text
@@ -81,18 +82,22 @@ img{
 }
 #main-navigation{
     background: #444;
-
+    display: flex;
+    flex-flow: nowrap;
+    justify-content: space-around;
     /*
         TODO:
         - Use Flexbox to arrange the navigation links
     */
 }
 #main-navigation a{
-    display: block;
+    display: flex;
     color: white;
     text-decoration: none;
     text-transform: uppercase;
-    padding: 10px 20px;
+    padding: 10px 10px;
+    align-items: center;
+    font-size: 13px;
 
     /*
         TODO:
@@ -101,7 +106,7 @@ img{
 }
 #main-navigation #logo{
     margin-right: 400px;
-
+    font-size: 19px;
     /*
         TODO:
         - Flexbox - The logo needs to take up more space
